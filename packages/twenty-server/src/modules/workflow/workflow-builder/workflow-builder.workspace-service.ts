@@ -23,7 +23,7 @@ import {
 import { isDefined } from 'src/utils/is-defined';
 
 @Injectable()
-export class WorkflowBuilderService {
+export class WorkflowBuilderWorkspaceService {
   constructor(
     private readonly serverlessFunctionService: ServerlessFunctionService,
     private readonly codeIntrospectionService: CodeIntrospectionService,
