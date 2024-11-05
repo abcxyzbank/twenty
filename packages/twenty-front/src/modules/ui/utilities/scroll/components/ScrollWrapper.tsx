@@ -21,6 +21,10 @@ const StyledScrollWrapper = styled.div`
   .os-scrollbar-handle {
     background-color: ${({ theme }) => theme.border.color.medium};
   }
+
+  .os-scrollbar-corner {
+    background-color: ${({ theme }) => theme.background.transparent.lighter};
+  }
 `;
 
 export type ScrollWrapperProps = {
